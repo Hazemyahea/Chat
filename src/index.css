@@ -18,3 +18,10 @@
   background-color: #111827;
   box-shadow: -2px 0px 4px 0px #9ca3af;
 }
+
+@media (max-width: 576px) {
+  .maa {
+    margin-top: 5px;
+    width: 100%;
+  }
+}

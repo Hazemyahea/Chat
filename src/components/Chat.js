@@ -77,12 +77,12 @@ function Chat({ room, isAuth, setIsAuth }) {
             <form className="p-3" onSubmit={HandleSubmit}>
               <input
                 value={newMessage}
-                className="p-2 mr-1 mt-1 w-2/3 h-16 rounded-lg"
+                className="maa p-2 mr-1 mt-1 w-2/3 h-16 rounded-lg"
                 placeholder="Type Your Message"
                 onChange={(e) => SetNewMessage(e.target.value)}
               />
               <button
-                className=" h-16 transition ease-in-out duration-200 p-2 w-40 text-zinc-950 px-2 font-semibold bg-zinc-100 rounded-md hover:bg-black hover:text-slate-200"
+                className="maa h-16 transition ease-in-out duration-200 p-2 w-40 text-zinc-950 px-2 font-semibold bg-zinc-100 rounded-md hover:bg-black hover:text-slate-200"
                 type="submit"
               >
                 Send
